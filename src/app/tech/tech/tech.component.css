@@ -1,0 +1,18 @@
+.pane{
+    background-color:#fdce4b;
+    padding: 10px;
+    border-radius: 4px;
+    color: #0d6f6f;
+    box-shadow:  0 0 17px 3px rgba(184,184,184,.5);
+    margin-top:20px;
+    font-family: lato,sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 0.6;
+  }
+
+
+  .anchorStyle{
+      font-weight: bold;
+      color:#c30000;
+  }
