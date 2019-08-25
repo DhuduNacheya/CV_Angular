@@ -8,7 +8,6 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'education', loadChildren: './edu/edu.module#EduModule'},
-  { path: 'technologies', loadChildren: './tech/tech.module#TechModule'},
   { path: 'projects', loadChildren: './project/project.module#ProjectModule'},
   { path: '**', redirectTo: 'home', pathMatch: 'full' }
 ];
