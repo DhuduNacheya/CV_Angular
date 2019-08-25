@@ -32,7 +32,10 @@
     border-bottom: 1px solid;
     border-color:#cafafe;
   }
-  
+  .active {
+    background-color: #eaaf09bf;
+  }
+
   .sidenav a:hover {
     color: #c30000;
   }
