@@ -1,5 +1,8 @@
 .background {
-    background-color: #cafafe;
+    background-image: url("assets/byanu.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 

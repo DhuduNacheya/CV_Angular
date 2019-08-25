@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
-
+import { TechModule } from './tech/tech.module'
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 
@@ -12,7 +12,8 @@ import { HeaderComponent } from './header/header.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TechModule
   ],
   providers: [],
   bootstrap: [AppComponent]

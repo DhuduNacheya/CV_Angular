@@ -12,6 +12,7 @@ export const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [TechComponent]
+  declarations: [TechComponent],
+  exports:[TechComponent]
 })
 export class TechModule { }
